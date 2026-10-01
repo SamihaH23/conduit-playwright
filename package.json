@@ -1,0 +1,24 @@
+{
+  "name": "conduit-playwright",
+  "version": "1.0.0",
+  "description": "Playwright end-to-end tests for Conduit",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "allure-playwright": "^3.13.0",
+    "dotenv": "^18.0.5"
+  }
+}
